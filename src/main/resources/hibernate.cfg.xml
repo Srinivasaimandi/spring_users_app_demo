@@ -1,0 +1,31 @@
+<!--
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/users-app-db</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">password</property>
+        &lt;!&ndash; use below property when the table is not create in the database
+         create: use in qa and production
+         update: do not use in production&ndash;&gt;
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+&lt;!&ndash;        <property name="hibernate.format_sql">true</property>&ndash;&gt;
+        
+        <property name="hibernate.transaction.jta.platform">jdbc</property>
+
+        &lt;!&ndash;<property name="hibernate.cache.use_second_level_cache">true</property>
+
+        <property name="hibernate.cache.region.factory_class">
+            org.hibernate.cache.jcache.JCacheRegionFactory
+        </property>
+
+        <property name="hibernate.javax.cache.provider">
+            org.ehcache.jsr107.EhcacheCachingProvider
+        </property>&ndash;&gt;
+
+    </session-factory>
+</hibernate-configuration>-->
